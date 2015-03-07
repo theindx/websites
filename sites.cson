@@ -5,3 +5,18 @@ sites:
   gawker:
     categories: ["clickbait", "news"]
     url: "http://gawker.com/"
+  tmz:
+    categories: ["clickbait", "news"]
+    url: "http://www.tmz.com/"
+  rawstory:
+    categories: ["clickbait", "news"]
+    url: "http://www.rawstory.com/"
+  mashable:
+    categories: ["clickbait", "news"]
+    url: "http://mashable.com/"
+  businessinsider:
+    categories: ["clickbait", "news"]
+    url: "http://businessinsider.com/"
+  motovo:
+    categories: ["clickbait", "news"]
+    url: "http://www.movoto.com/blog/"
