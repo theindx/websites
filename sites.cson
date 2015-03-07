@@ -1,0 +1,7 @@
+sites:
+  buzzfeed:
+    categories: ["clickbait", "news"]
+    url: "http://www.buzzfeed.com/"
+  gawker:
+    categories: ["clickbait", "news"]
+    url: "http://gawker.com/"
