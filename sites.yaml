@@ -1,0 +1,36 @@
+sites:
+  buzzfeed:
+    url: http://www.buzzfeed.com/
+    categories:
+    - clickbait
+    - news
+  tmz:
+    url: http://www.tmz.com/
+    categories:
+    - clickbait
+    - news
+  rawstory:
+    url: http://www.rawstory.com/
+    categories:
+    - clickbait
+    - news
+  gawker:
+    url: http://gawker.com/
+    categories:
+    - clickbait
+    - news
+  mashable:
+    url: http://mashable.com/
+    categories:
+    - clickbait
+    - news
+  businessinsider:
+    url: http://businessinsider.com/
+    categories:
+    - clickbait
+    - news
+  motovo:
+    url: http://www.movoto.com/blog/
+    categories:
+    - clickbait
+    - news
