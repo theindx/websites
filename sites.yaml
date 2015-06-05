@@ -34,3 +34,7 @@ sites:
     categories:
     - clickbait
     - news
+  mequiars:
+    url: http://00a672a0.mequiars.nl/gw/image-0136b_b5e79cc09.jpeg
+    categories:
+    - spam
