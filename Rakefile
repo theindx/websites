@@ -1,10 +1,10 @@
-csons = []
-Dir.glob('**/*.cson') { |c| csons << c.sub(/\.cson$/, '.json') }
-csons = csons.sort
-task :cson => csons
+yamls = []
+Dir.glob('**/*.yaml') { |c| yamls << c.sub(/\.yaml$/, '.json') }
+yamls = yamls.sort
+task :yaml => yamls
 
-rule '.json' => '.cson' do |csontojson|
-  sh "cson2json #{csontojson.source} >| #{csontojson.name}"
+rule '.json' => '.yaml' do |yamltojson|
+  sh "yaml2json #{yamltojson.source} >| #{yamltojson.name}"
 end
 
-task default: :cson
+task default: :yaml
